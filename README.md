@@ -1,61 +1,52 @@
-📌 Project Workflow
+# 🏡 House Price Sales Prediction  
 
-Data Collection
+This project predicts **house sale prices** using **Regression Machine Learning algorithms**.  
+The dataset is first cleaned and explored through **Exploratory Data Analysis (EDA)**, followed by training and evaluation of regression models.  
 
-Used Data.csv dataset containing house attributes and sale prices.
+---
 
-Data Cleaning & Preprocessing
+## 📌 Project Workflow  
 
-Handled missing values
+### 1. Data Collection  
+- Used **Data.csv** dataset containing house attributes and sale prices.  
 
-Removed duplicates
+### 2. Data Cleaning & Preprocessing  
+- Handled missing values  
+- Removed duplicates  
+- Encoded categorical variables  
+- Scaled numerical features  
 
-Encoded categorical variables
+### 3. Exploratory Data Analysis (EDA)  
+- Distribution plots of features  
+- Correlation heatmaps  
+- Outlier detection  
+- Feature importance analysis  
 
-Scaled numerical features
+### 4. Model Building  
+- Applied multiple **Regression algorithms** (Linear Regression, Decision Tree Regressor, Random Forest, KNN, etc.)  
+- Selected the best performing model: **KNeighborsRegressor**  
 
-Exploratory Data Analysis (EDA)
+### 5. Model Evaluation  
+- Metrics used:  
+  - Mean Absolute Error (MAE)  
+  - Mean Squared Error (MSE)  
+  - R² Score  
 
-Distribution plots of features
+---
 
-Correlation heatmaps
+## 📊 Results  
 
-Outlier detection
+- **Best performing model**: `KNeighborsRegressor`  
+- **R² Score**: -0.2538906681296613 
+- **MAE**: 1629950.0  
+- **MSE**: 4133854450000.0  
 
-Feature importance analysis
+---
 
-Model Building
+## ⚙️ Tech Stack  
 
-Applied multiple Regression algorithms
-
-Selected the best performing model: KNeighborsRegressor
-
-Model Evaluation
-
-Metrics used:
-
-Mean Absolute Error (MAE)
-
-Mean Squared Error (MSE)
-
-R² Score
-
-⚙️ Tech Stack
-
-Python 🐍
-
-Pandas, NumPy – Data Cleaning & Preprocessing
-
-Matplotlib, Seaborn – Data Visualization (EDA)
-
-Scikit-learn – Regression Models & Evaluation
-
-📊 Results
-
-Best performing model: (Fill your best model name here)
-
-R² Score: 1629950.0
-
-MAE: 1629950.0
-
-MSE: 4133854450000.0
+- **Python** 🐍  
+- **Pandas, NumPy** – Data Cleaning & Preprocessing  
+- **Matplotlib, Seaborn** – Data Visualization (EDA)  
+- **Scikit-learn** – Regression Models & Evaluation  
+- **Joblib** – Model Saving & Loading  
